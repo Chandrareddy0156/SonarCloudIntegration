@@ -1,15 +1,7 @@
-
-import './App.css'
-import SonarTest from './simple'
-
+import LoginModal from "./pages";
 
 function App() {
-
-  return (
-    
-      <SonarTest />
-    
-  )
+  return <LoginModal />;
 }
 
-export default App
+export default App;
